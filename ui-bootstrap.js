@@ -672,7 +672,7 @@ function CarouselDemoCtrl($scope) {
 .directive('slide', function() {
   return {
     require: '^carousel',
-    restrict: 'EA',
+    restrict: 'E',
     transclude: true,
     replace: true,
     templateUrl: 'template/carousel/slide.html',
